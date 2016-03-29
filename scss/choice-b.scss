@@ -27,8 +27,8 @@ body {
 
     margin: 0;
 
-    background-color: #F1A9A0;
-    color: darken(saturate(#F1A9A0, 100%), 10%);
+    background-color: lighten(#3FC380, 10%);
+    color: darken(saturate(#3FC380, 10%), 10%);
 
     height: 100%;
 
@@ -62,7 +62,7 @@ h3 {
     font-size: 2em;
 
     border-width: 2px;
-    border-color: lighten(#F1A9A0, 10%);
+    border-color: darken(saturate(#3FC380, 10%), 10%);
     border-top-style: solid;
     border-bottom-style: solid;
     border-left: none;
@@ -84,12 +84,12 @@ svg {
     width: 100%;
     height: 100%;
 
-    fill: darken(saturate(#F1A9A0, 100%), 10%);
+    fill: darken(saturate(#3FC380, 10%), 10%);
 }
 
 #content {
-    color: darken(saturate(#F1A9A0, 100%), 10%);
-    background-color: #F1A9A0;
+    color: darken(saturate(#3FC380, 10%), 10%);
+    background-color: lighten(#3FC380, 10%);
 
     width: 50vw;
     margin-left: 25vw;
@@ -99,54 +99,42 @@ svg {
     }
 }
 
-p.question {
-    margin-top: 25px;
-    margin-bottom: 25px;
-
-    font-size: 2em;
-
-    text-align: center;
-}
-
 .buttons {
     text-align: center;
 
     margin-bottom: 25px;
+}
 
-    button {
-        background-color: darken(saturate(#F1A9A0, 100%), 10%);
-        color: #F1A9A0;
+button {
+    background-color: darken(saturate(#3FC380, 10%), 10%);
+    color: lighten(#3FC380, 10%);
 
-        margin-left: 10px;
-        margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 
-        padding-top: 10px;
-        padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
-        border: none;
-        border-radius: 2px;
+    border: none;
+    border-radius: 2px;
 
-        font-size: 0.75em;
+    font-size: 0.75em;
 
-        cursor: pointer;
+    cursor: pointer;
 
-        transition-property: all;
-    }
+    transition-property: all;
+}
 
-    #choice-a:hover {
-        background-color: #F9690E;
-        color: #FFF;
+#choice-b1:hover {
+    background-color: darken(saturate(#F1A9A0, 100%), 10%);
+    color: lighten(#F1A9A0, 10%);
 
-        transition-property: all;
-    }
+    transition-property: all;
+}
 
-    #choice-b:hover {
-        background-color: #26A65B;
-        color: #FFF;
-    }
+#choice-b2:hover {
+    color: darken(saturate(#19B5FE, 10%), 10%);
+    background-color: lighten(#19B5FE, 10%);
 
-    #choice-c:hover {
-        background-color: #19B5FE;
-        color: #FFF;
-    }
+    transition-property: all;
 }
