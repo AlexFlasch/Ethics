@@ -53,7 +53,7 @@ p.big-letter::first-letter {
 h3 {
   font-size: 2em;
   border-width: 2px;
-  border-color: #8ddbb3;
+  border-color: #27a867;
   border-top-style: solid;
   border-bottom-style: solid;
   border-left: none;
@@ -103,5 +103,17 @@ button {
   border-radius: 2px;
   font-size: 0.75em;
   cursor: pointer;
+  transition-property: all;
+}
+
+#choice-b1:hover {
+  background-color: #ff715f;
+  color: #f8d1cc;
+  transition-property: all;
+}
+
+#choice-b2:hover {
+  color: #009be4;
+  background-color: #4cc5fe;
   transition-property: all;
 }

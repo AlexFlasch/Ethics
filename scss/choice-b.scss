@@ -62,7 +62,7 @@ h3 {
     font-size: 2em;
 
     border-width: 2px;
-    border-color: lighten(#3FC380, 20%);
+    border-color: darken(saturate(#3FC380, 10%), 10%);
     border-top-style: solid;
     border-bottom-style: solid;
     border-left: none;
@@ -121,6 +121,20 @@ button {
     font-size: 0.75em;
 
     cursor: pointer;
+
+    transition-property: all;
+}
+
+#choice-b1:hover {
+    background-color: darken(saturate(#F1A9A0, 100%), 10%);
+    color: lighten(#F1A9A0, 10%);
+
+    transition-property: all;
+}
+
+#choice-b2:hover {
+    color: darken(saturate(#19B5FE, 10%), 10%);
+    background-color: lighten(#19B5FE, 10%);
 
     transition-property: all;
 }
