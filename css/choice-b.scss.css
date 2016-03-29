@@ -22,8 +22,8 @@ body {
   font-family: Raleway, sans-serif;
   font-size: 1.5em;
   margin: 0;
-  background-color: #F1A9A0;
-  color: #ff715f;
+  background-color: #66cf9a;
+  color: #27a867;
   height: 100%;
 }
 
@@ -53,7 +53,7 @@ p.big-letter::first-letter {
 h3 {
   font-size: 2em;
   border-width: 2px;
-  border-color: #f8d1cc;
+  border-color: #8ddbb3;
   border-top-style: solid;
   border-bottom-style: solid;
   border-left: none;
@@ -73,12 +73,12 @@ h3 {
 svg {
   width: 100%;
   height: 100%;
-  fill: #ff715f;
+  fill: #27a867;
 }
 
 #content {
-  color: #ff715f;
-  background-color: #F1A9A0;
+  color: #27a867;
+  background-color: #66cf9a;
   width: 50vw;
   margin-left: 25vw;
 }
@@ -87,21 +87,14 @@ svg {
   text-indent: 50px;
 }
 
-p.question {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  font-size: 2em;
-  text-align: center;
-}
-
 .buttons {
   text-align: center;
   margin-bottom: 25px;
 }
 
-.buttons button {
-  background-color: #ff715f;
-  color: #F1A9A0;
+button {
+  background-color: #27a867;
+  color: #66cf9a;
   margin-left: 10px;
   margin-right: 10px;
   padding-top: 10px;
@@ -111,20 +104,4 @@ p.question {
   font-size: 0.75em;
   cursor: pointer;
   transition-property: all;
-}
-
-.buttons #choice-a:hover {
-  background-color: #F9690E;
-  color: #FFF;
-  transition-property: all;
-}
-
-.buttons #choice-b:hover {
-  background-color: #26A65B;
-  color: #FFF;
-}
-
-.buttons #choice-c:hover {
-  background-color: #19B5FE;
-  color: #FFF;
 }

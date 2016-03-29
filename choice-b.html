@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ethical Scenario - Alex Flasch</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.0.2/css/hover-min.css">
+    <link rel="stylesheet" href="css/choice-b.scss.css">
+
+    <!-- fonts -->
+    <script src="https://use.edgefonts.net/actor.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway" />
+
+    <!-- scripts -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#choice-b1').click(function() {
+                window.location.href = 'choice-b1.html';
+            });
+
+            $('#choice-b2').click(function() {
+                window.location.href = 'choice-b2.html';
+            });
+        });
+    </script>
+</head>
+<body>
+    <h2 class="animated fadeInLeft">Ethics Scenario</h2>
+    <h4 class="animated fadeInLeft delay-1">by: Alex Flasch</h4>
+
+    <div id="preface" class="animated fadeIn delay-3">
+        <h3>Neutral Path</h3>
+        <p class="big-letter">
+            “It really doesn’t sit well with me, and I’m not sure I can do that to our users.
+            Isn’t there any way we could avoid implementing a backdoor in our system?” You ask.
+        </p>
+        <p>
+            “Unfortunately, since the government has requested this of us, we couldn’t easily
+            refuse them. If we wanted to ignore it, it would likely take a large legal battle
+            to settle, and Connekt just isn’t big enough to handle that right now. So, I’d
+            like it if you just implemented it and hopefully we can figure something out later.”
+        </p>
+    </div>
+
+    <div class="separator" class="animated fadeInDown delay-3">
+        <svg viewbox="0 0 100 50">
+            <circle cx="25" cy="25" r="2.5" />
+            <circle cx="50" cy="25" r="2.5" />
+            <circle cx="75" cy="25" r="2.5" />
+        </svg>
+    </div>
+
+    <div id="content" class="animated fadeIn delay-4">
+        <p class="big-letter">
+            You decide to ask your boss if there’s any way the company could avoid putting the
+            backdoor into the encryption. Putting a master lock on your encryption that you’ve
+            worked so hard on feels like it would dirty your achievements. On top of all that,
+            the thought of having potential security holes being used by the government,
+            hackers, or maybe even Connekt itself doesn’t sit well with you.
+        </p>
+    </div>
+
+    <div class="buttons animated fadeIn delay-5">
+        <button id="choice-b1" class="hvr-grow">
+            Agree, and implement the backdoor.
+        </button>
+        <button id="choice-b2" class="hvr-grow">
+            Refuse, and put in your two weeks.
+        </button>
+    </div>
+</body>
+</html>

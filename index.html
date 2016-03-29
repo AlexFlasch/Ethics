@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <title>Ethical Scenario - Alex Flasch</title>
 
+    <!-- styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.css">
-    <link rel="stylesheet" href="css/theme.scss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.0.2/css/hover-min.css">
+    <link rel="stylesheet" href="css/my-choice.scss.css">
 
+    <!-- fonts -->
+    <script src="https://use.edgefonts.net/actor.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway" />
+
+    <!-- scripts -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
-    <h2 class="fadeInBigLeft">Ethics Secnario</h2>
-    <h4 class="fadeInLeft delay-1s">by: Alex Flasch</h4>
+    <h2 class="animated fadeInLeft">Ethics Scenario</h2>
+    <h4 class="animated fadeInLeft delay-1">by: Alex Flasch</h4>
 
-    <div class="fadeInLeft delay-2s">
+    <div id="preface" class="animated fadeIn delay-3">
         <h3>Preface</h3>
-        <p>
+        <p class="big-letter">
             You’ve just landed your dream job working at Connekt.
             They’ve got a fairly well established communication platform,
             and you’re an avid user yourself. Connekt has been promising
@@ -28,6 +35,121 @@
             for responding to user feedback and listening to what their
             community wants.
         </p>
+    </div>
+
+    <div class="separator" class="animated fadeInDown delay-3">
+        <svg viewbox="0 0 100 50">
+            <circle cx="25" cy="25" r="2.5" />
+            <circle cx="50" cy="25" r="2.5" />
+            <circle cx="75" cy="25" r="2.5" />
+        </svg>
+    </div>
+
+    <div id="content" class="animated fadeIn delay-4">
+        <h3>Scenario</h3>
+        <p class="big-letter">
+            Walking into the office your first day it’s pretty easy to see
+            that the office culture is extremely laid back. Everyone smiles
+            and welcomes you to the team as you find your way to your desk.
+            The guy the next desk over is named Jackson, and after holding
+            a few-minute-long conversation with him, you find out that
+            there’s even a beer fridge in the break room! Awesome!
+            “Sounds like I’ll fit in just fine here” you decide. As you sit
+            down at your desk your first day, you’re presented with some
+            training. “This will probably take a few weeks to get through…”
+            You think to yourself. And so you begin working.
+        </p>
+        <p>
+            A week later you’ve gotten through a good portion of the training
+            required. Unfortunately the work is rather mundane. Staying
+            hopeful, you tell yourself it’ll be more interesting once you get
+            to work on the actual product. Jackson likes to talk a lot and
+            has been making it hard to get through all of your training.
+        </p>
+        <p>
+            Finally, after what seems like eons, all of your training is
+            complete. Your department lead has looked it over and she says
+            everything looks fantastic! She assigns you your first features
+            to work on and you excitedly begin implementing them.
+        </p>
+        <p>
+            It’s Jackson again. He wants to know how your work is going,
+            but you know he’s just going to talk your ear off. Same as
+            every other time he drops in. The boss walks by as you two
+            are talking, and you try to look like you’re at least staying
+            productive while Jackson continues to blabber. Jackson either
+            doesn’t care, or doesn’t notice the boss walking by. Finally
+            he leaves and you can get back to work.
+        </p>
+        <p>
+            After finishing all of the features that were assigned to you,
+            you get to watch as they go live. You’re excited to hear the users’
+            opinions on them. You just hope that they keep up Connekt’s high
+            standards and that the users enjoy them. Within a few days, though,
+            you get some bug reports on your new features, so you set out on a
+            bug hunting. In the middle of your bug-squashing session your boss
+            walks in and tells you he’s got a new feature for you to work on.
+            “It’s a doozy” she says. She asks you to implement platform-wide
+            encryption on all forms of data sent through Connekt and all of
+            their services. You love the idea, and even though you know you’ve
+            got a long road ahead of you, you’re excited to get encryption
+            working, and so you start typing away madly at your keyboard.
+        </p>
+        <p>
+            Another few weeks have passed and Jackson has since been “let go”
+            from Connekt, and you can only assume it’s due to his lack of work
+            ethic. He’s constantly going around chatting to all of the other
+            developers, and you’re not sure you’ve even seen any commits from
+            him in the last month or two. You’re a little sad to see him go,
+            seeing as he’s the one that you’ve talked to most, but secretly
+            you’re a bit relieved that you can be more productive and not
+            have to worry too heavily about your boss walking by as Jackson
+            is talking to you.
+        </p>
+        <p>
+            In the middle of putting some of the finishing touches on your
+            encryption, your boss approaches you. “Hey! Great job so far with
+            the encryption. I’ve been following it pretty closely since it’s
+            a heavily requested feature from our users. Seeing as it’s almost
+            done, I’d love to take you and a few of the other developers out
+            to the bar to celebrate! Does tonight work for you?”
+        </p>
+        <p>
+            “Sure! I’d love to meet you guys there!” You reply.
+        </p>
+        <p>
+            Later that night, you meet up with your boss and all of your
+            coworkers. As you sit down at the bar you order a rum and coke,
+            your go-to drink. After a couple of drinks your boss pulls you aside.
+        </p>
+        <p>
+            “Hey, so I wanted to talk to you about a feature that we’ve been
+            asked to implement in the encryption.”
+        </p>
+        <p>
+            “Sure, what kinda feature are we implementing?”
+        </p>
+        <p>
+            “Well, the government has demanded we put a backdoor in our encryption
+            so that they can track any potentially threatening users that might be
+            using our systems.”
+        </p>
+    </div>
+
+    <p class="question animated fadeIn delay-5">
+        So, how do you reply?
+    </p>
+
+    <div class="buttons animated fadeIn delay-5">
+        <button id="choice-a" class="animated hvr-grow">
+            Agree, and implement the backdoor.
+        </button>
+        <button id="choice-b" class="animated hvr-grow">
+            Ask if there’s any way to avoid the backdoor.
+        </button>
+        <button id="choice-c" class="animated hvr-grow">
+            Refuse, and put in your two weeks.
+        </button>
     </div>
 </body>
 </html>
